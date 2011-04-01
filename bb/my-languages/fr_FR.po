@@ -1,0 +1,386 @@
+# French (France) translation for bbPress
+# --VERSIONS--
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bbPress 1.0.2\n"
+"Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
+"POT-Creation-Date: 2009-07-08 15:11+0000\n"
+"PO-Revision-Date: 2009-07-29 22:51+0100\n"
+"Last-Translator: Amaury Balmer <balmer.amaury@gmail.com>\n"
+"Language-Team: Amaury BALMER <balmer.amaury@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n>1\n"
+
+#: bb-admin/admin-base.php:13
+msgid "Nothing to see here."
+msgstr "Il n&#8217;y a rien à voir ici."
+
+#: bb-admin/admin-footer.php:8
+#: bb-templates/kakumei/footer.php:11
+#, php-format
+msgid "This page generated in %s seconds, using %d queries."
+msgstr "Cette page a été généré en %s secondes, et utilise %d requêtes."
+
+#: bb-admin/admin-footer.php:21
+#, php-format
+msgid "Thank you for using <a href=\"%s\">bbPress</a>. | <a href=\"%s\">Documentation</a> | <a href=\"%s\">Feedback</a>"
+msgstr "Merci d&#8217;utiliser <a href=\"%s\">bbPress</a>. | <a href=\"%s\">Documentation</a> | <a href=\"%s\">Feedback</a>"
+
+#: bb-admin/admin-footer.php:28
+#: bb-admin/plugins.php:226
+#, php-format
+msgid "Version %s"
+msgstr "Version %s"
+
+#: bb-admin/admin-header.php:40
+msgid "Visit Site"
+msgstr "Aller sur le site"
+
+#: bb-admin/admin-header.php:43
+#, php-format
+msgid "Howdy, %1$s"
+msgstr "Bienvenue, %1$s"
+
+#: bb-admin/bb-forum.php:5
+msgid "You don't have the authority to mess with the forums."
+msgstr "Vous n&#8217;avez pas l&#8217;autorisation de modifier les forums."
+
+#: bb-admin/bb-forum.php:17
+msgid "Bad forum name.  Go back and try again."
+msgstr "Mauvais nom de forum. Retournez en arrière et réessayez."
+
+#: bb-admin/bb-forum.php:25
+msgid "The forum was not added"
+msgstr "Le forum n&#8217;a pas été ajouté"
+
+#: bb-admin/bb-forum.php:32
+msgid "No forums to update!"
+msgstr "Aucun forum à mettre à jour !"
+
+#: bb-admin/bb-forum.php:47
+msgid "You don't have the authority to kill off the forums."
+msgstr "Vous n&#8217;avez pas l&#8217;autorisation d&#8217;effacer les forums."
+
+#: bb-admin/bb-forum.php:53
+msgid "Error occured while trying to delete forum"
+msgstr "Une erreur s&#8217;est produite lorsque vous avez essayé d&#8217;effacer le forum"
+
+#: bb-admin/delete-post.php:18
+msgid "There is a problem with that post, pardner."
+msgstr "Il y a un problème avec ce message."
+
+#: bb-admin/delete-topic.php:17
+#: bb-admin/sticky.php:9
+#: bb-admin/topic-toggle.php:8
+msgid "There is a problem with that topic, pardner."
+msgstr "Il y a un problème avec ce sujet."
+
+#: bb-admin/export.php:19
+msgid "Either export is disabled or you are not allowed to export."
+msgstr "Toute sorte d&#8217;exportation est désactivée ou vous n&#8217;êtes pas autorisé à exporter."
+
+#: bb-admin/forums.php:19
+msgid "<strong>Forum Updated.</strong>"
+msgstr "<strong>Forum mis à jour.</strong>"
+
+#: bb-admin/forums.php:23
+#, php-format
+msgid "<strong>Forum deleted.</strong>  You should <a href=\"%s\">recount your site information</a>."
+msgstr "<strong>Forum supprimé.</strong> Vous devez <a href=\"%s\">recompter les informations du site</a>."
+
+#: bb-admin/forums.php:33
+#, php-format
+msgid "Are you sure you want to delete the \"<strong>%s</strong>\" forum?"
+msgstr "Êtes-vous sûr de vouloir effacer le forum \"<strong>%s</strong>\" ?"
+
+#: bb-admin/forums.php:42
+#: bb-admin/includes/functions.bb-admin.php:65
+#: bb-admin/includes/functions.bb-admin.php:66
+#: bb-templates/kakumei/front-page.php:48
+msgid "Forums"
+msgstr "Forums"
+
+#: bb-admin/forums.php:51
+#: bb-admin/forums.php:80
+msgid "Delete Forum"
+msgstr "Effacer le forum"
+
+#: bb-admin/forums.php:52
+msgid "This forum contains:"
+msgstr "Ce forum contient :"
+
+#: bb-admin/forums.php:54
+#, php-format
+msgid "%d topic"
+msgid_plural "%d topics"
+msgstr[0] "%d sujet"
+msgstr[1] "%d sujets"
+
+#: bb-admin/forums.php:55
+#, php-format
+msgid "%d post"
+msgid_plural "%d posts"
+msgstr[0] "%d message"
+msgstr[1] "%d messages"
+
+#: bb-admin/forums.php:58
+msgid "Action"
+msgstr "Action"
+
+#: bb-admin/forums.php:61
+msgid "Delete all topics and posts in this forum. <em>This can never be undone.</em>"
+msgstr "Effacer tous les sujets et les messages du forum. <em>Cette action est irréversible</em>."
+
+#: bb-admin/forums.php:64
+msgid "Move topics from this forum into the replacement forum below."
+msgstr "Déplacer les sujets depuis ce forum dans le forum de remplacement suivant."
+
+#: bb-admin/forums.php:69
+msgid "Replacement forum"
+msgstr "Forum de remplacement"
+
+#: bb-admin/forums.php:79
+msgid "Cancel"
+msgstr "Annuler"
+
+#: bb-admin/forums.php:89
+#: bb-includes/class.bb-query.php:942
+#: bb-templates/kakumei/post-form.php:20
+msgid "Forum"
+msgstr "Forum"
+
+#: bb-admin/includes/class.bb-install.php:186
+#: bb-includes/functions.bb-core.php:1175
+msgid "bbPress &rsaquo; Error"
+msgstr "bbPress &rsaquo; Erreur"
+
+#: bb-admin/includes/class.bb-install.php:187
+msgid "Oh dear!"
+msgstr "Ho attention !"
+
+#: bb-admin/includes/class.bb-install.php:191
+#: bb-admin/includes/class.bb-install.php:201
+#: bb-admin/includes/class.bb-install.php:211
+#: bb-admin/includes/class.bb-install.php:221
+#: bb-admin/includes/class.bb-install.php:232
+#, php-format
+msgid "%1$s &rsaquo; %2$s"
+msgstr "%1$s &rsaquo; %2$s"
+
+#: bb-admin/includes/class.bb-install.php:191
+#: bb-admin/includes/class.bb-install.php:201
+#: bb-admin/includes/class.bb-install.php:211
+#: bb-admin/includes/class.bb-install.php:221
+#: bb-admin/includes/class.bb-install.php:232
+msgid "bbPress installer"
+msgstr "Utilitaire d&#8217;installation de bbPress"
+
+#: bb-admin/includes/class.bb-install.php:191
+msgid "Welcome"
+msgstr "Bienvenue"
+
+#: bb-admin/includes/class.bb-install.php:192
+msgid "Welcome to the bbPress installer"
+msgstr "Bienvenue sur l&#8217;utilitaire d&#8217;installation de bbPress"
+
+#: bb-admin/includes/class.bb-install.php:196
+msgid "We're now going to go through a few steps to get you up and running."
+msgstr "Nous allons maintenant procéder par étapes pour configurer et installer bbPress."
+
+#: bb-admin/includes/class.bb-install.php:197
+msgid "Ready? Then let's get started!"
+msgstr "Prêt ? Alors, on est parti !"
+
+#: bb-admin/includes/class.bb-install.php:201
+#: bb-admin/includes/class.bb-install.php:202
+msgid "Step 1"
+msgstr "Étape 1"
+
+#: bb-admin/includes/class.bb-install.php:202
+#: bb-admin/includes/class.bb-install.php:212
+#: bb-admin/includes/class.bb-install.php:222
+#, php-format
+msgid "%1$s - %2$s"
+msgstr "%1$s - %2$s"
+
+#: bb-admin/includes/class.bb-install.php:202
+msgid "Database configuration"
+msgstr "Configuration de la base de données"
+
+#: bb-admin/includes/class.bb-install.php:205
+msgid "In this step you need to enter your database connection details. The installer will attempt to create a file called <code>bb-config.php</code> in the root directory of your bbPress installation."
+msgstr "Vous devez saisir ici les détails de la connexion à la base de données. L&#8217;utilitaire d&#8217;installation tentera de créer un fichier appelé <code>bb-config.php</code> à la racine du dossier d&#8217;installation de bbPress."
+
+#: bb-admin/includes/class.bb-install.php:206
+msgid "If you're not sure what to put here, contact your web hosting provider."
+msgstr "Si vous n&#8217;êtes pas sûr de ce qu&#8217;il faut saisir, contacter votre hébergeur web."
+
+#: bb-admin/includes/class.bb-install.php:211
+#: bb-admin/includes/class.bb-install.php:212
+msgid "Step 2"
+msgstr "Étape 2"
+
+#: bb-admin/includes/class.bb-install.php:212
+msgid "WordPress integration (optional)"
+msgstr "Intégration à WordPress (optionnel)"
+
+#: bb-admin/includes/class.bb-install.php:213
+msgid "&laquo; skipped"
+msgstr "&laquo; sauté"
+
+#: bb-admin/includes/class.bb-install.php:215
+msgid "bbPress can integrate login and user data seamlessly with WordPress. You can safely skip this step if you do not wish to integrate with an existing WordPress install."
+msgstr "bbPress peut s&#8217;intégrer facilement avec la base utilisateurs de WordPress. Vous pouvez passer cette section sans risque, si vous ne souhaitez pas intégrer bbPress avec WordPress."
+
+#: bb-admin/includes/class.bb-install.php:221
+#: bb-admin/includes/class.bb-install.php:222
+msgid "Step 3"
+msgstr "Étape 3"
+
+#: bb-admin/includes/class.bb-install.php:222
+msgid "Site settings"
+msgstr "Réglages du site"
+
+#: bb-admin/includes/class.bb-install.php:225
+msgid "Finalize your installation by adding a name, your first user and your first forum."
+msgstr "Pour finaliser l&#8217;installation, vous devez ajouter un nom à votre premier utilisateur et premier forum."
+
+#: bb-admin/includes/class.bb-install.php:232
+msgid "Finished"
+msgstr "Terminé"
+
+#: bb-admin/includes/class.bb-install.php:233
+#: bb-admin/includes/class.bb-install.php:2170
+msgid "Installation complete!"
+msgstr "Installation terminée !"
+
+#: bb-admin/includes/class.bb-install.php:250
+msgid "Your PHP installation appears to be missing the MySQL extension which is required for bbPress"
+msgstr "Votre installation PHP ne dispose pas de l&#8217;extension MySQL. Extension requise pour bbPress."
+
+#: bb-admin/includes/class.bb-install.php:255
+msgid "Please complete your installation before attempting to include WordPress within bbPress"
+msgstr "Merci de terminer l&rsquo;installation avant d'essayer d&rsquo;inclure Wordpress dans bbPress"
+
+#: bb-admin/includes/class.bb-install.php:333
+msgid "Installation language"
+msgstr "Langue de l'installation"
+
+#: bb-admin/includes/class.bb-install.php:344
+msgid "Sets the language to be used during the installation process only."
+msgstr "Merci de choisir la langue que vous voulez utiliser durant l'installation seulement."
+
+#: bb-admin/includes/class.bb-install.php:461
+msgid "An old <code>config.php</code> file has been detected in your installation. You should remove it and run the <a href=\"install.php\">installer</a> again. You can use the same database connection details if you do."
+msgstr "Un ancien fichier <code>config.php</code> a été détecté dans votre installation. Vous devriez probablement le supprimer avant de lancer <a href=\"install.php\">l&#8217;utilitaire  d&#8217;installation</a>. Vous pouvez utiliser les mêmes réglages de connexion à la base de données si vous le souhaitez."
+
+#: bb-admin/includes/class.bb-install.php:474
+#: bb-admin/includes/class.bb-install.php:1106
+#: bb-admin/includes/class.bb-install.php:1114
+#: bb-admin/includes/class.bb-install.php:1126
+msgid "&laquo; completed"
+msgstr "&laquo; terminé"
+
+#: bb-admin/includes/class.bb-install.php:482
+msgid "A valid configuration file was found at <code>bb-config.php</code><br />You may continue to the next step."
+msgstr "Un fichier de configuration valide a été trouvé dans <code>bb-config.php</code><br />Vous pouvez passer à l&#8217;étape suivante."
+
+#: bb-admin/includes/class.bb-install.php:487
+msgid "An invalid configuration file was found at <code>bb-config.php</code><br />The installation cannot continue."
+msgstr "Un fichier de configuration invalide a été trouvé dans <code>bb-config.php</code><br />L&#8217;installation ne peut pas continuer."
+
+#: bb-admin/includes/class.bb-install.php:488
+msgid "Usually this is caused by one of the database connection settings being incorrect. Make sure that the specified user has appropriate permission to access the database."
+msgstr "Habituellement, cela provient d&#8217;un réglage de la connexion à la base de données incorrect. Vérifier que l&#8217;utilisateur spécifié dispose des permissions suffisantes pour accéder à la base de données."
+
+#: bb-admin/includes/class.bb-install.php:498
+msgid "bbPress is already installed, but appears to require an upgrade."
+msgstr "bbPress est déjà installé, mais une mise à jour semble nécessaire."
+
+#: bb-admin/includes/class.bb-install.php:500
+msgid "bbPress is already installed."
+msgstr "bbPress est déjà installé."
+
+#: bb-admin/includes/class.bb-install.php:503
+#, php-format
+msgid "Perhaps you meant to run the <a href=\"%s\">upgrade script</a> instead?"
+msgstr "Voulez vous lancer <a href=\"%s\">l&#8217;utilitaire de mise à jour</a> à la place ?"
+
+#: bb-admin/includes/class.bb-install.php:513
+#: bb-admin/includes/class.bb-install.php:1312
+msgid "I could not find the file <code>bb-config-sample.php</code><br />Please upload it to the root directory of your bbPress installation."
+msgstr "Impossible de trouver le fichier <code>bb-config-sample.php</code><br />Merci d&#8217;envoyer ce dernier dans le dossier racine de votre installation de bbPress."
+
+#: bb-admin/includes/class.bb-install.php:519
+msgid "There doesn't seem to be a <code>bb-config.php</code> file. This usually means that you want to install bbPress."
+msgstr "Le fichier <code>bb-config.php</code> est introuvable. Ce dernier est indispensable pour réussir l&#8217;installation de bbPress."
+
+#: bb-admin/includes/class.bb-install.php:606
+msgid "Go to step 1"
+msgstr "Aller à la deuxième étape"
+
+#: bb-admin/includes/class.bb-install.php:614
+msgid "Database name"
+msgstr "Nom de la base de données"
+
+#: bb-admin/includes/class.bb-install.php:615
+msgid "The name of the database in which you want to run bbPress."
+msgstr "Le nom de la base de données sur laquelle vous voulez faire fonctionner bbPress."
+
+#: bb-admin/includes/class.bb-install.php:619
+msgid "Database user"
+msgstr "Utilisateur de la base de données"
+
+#: bb-admin/includes/class.bb-install.php:620
+#: bb-admin/includes/class.bb-install.php:827
+#: bb-admin/options-wordpress.php:129
+msgid "The database user that has access to that database."
+msgstr "L&#8217;utilisateur de la base de données qui doit accéder à cette base."
+
+#: bb-admin/includes/class.bb-install.php:626
+msgid "Database password"
+msgstr "Mot de passe de la base de données"
+
+#: bb-admin/includes/class.bb-install.php:627
+#: bb-admin/includes/class.bb-install.php:835
+#: bb-admin/options-wordpress.php:133
+msgid "That database user's password."
+msgstr "Le mot de passe de l&#8217;utilisateur de la base de données"
+
+#: bb-admin/includes/class.bb-install.php:632
+msgid "Language"
+msgstr "Langue"
+
+#: bb-admin/includes/class.bb-install.php:633
+#, php-format
+msgid "The language which bbPress will be presented in once installed. Your current installer language choice (%s) will be the same for the rest of the install process."
+msgstr "La langue choisie sera utilisée par bbPress une fois installé. Votre choix actuel de langue pour l'installation (%s) sera utilisé pour le reste du processus d&rsquo;installation."
+
+#: bb-admin/includes/class.bb-install.php:637
+msgid "Show advanced settings"
+msgstr "Afficher les paramètres avancés"
+
+#: bb-admin/includes/class.bb-install.php:638
+#, php-format
+msgid "These settings usually do not have to be changed."
+msgstr "Dans la plupart des cas, vous n&#8217;aurez pas à modifier ces paramètres."
+
+#: bb-admin/includes/class.bb-install.php:644
+msgid "Database host"
+msgstr "Hôte de la base de données"
+
+#: bb-admin/includes/class.bb-install.php:645
+msgid "The domain name or IP address of the server where the database is located. If the database is on the same server as the web site, then this probably should remain <strong>localhost</strong>."
+msgstr "Le nom de domaine ou l&#8217;adresse IP du serveur où se situe la base de données. Si la base de données est sur le même serveur que le site internet,  vous devriez probablement laisser <strong>localhost</strong>."
+
+#: bb-admin/includes/class.bb-install.php:650
+msgid "Database character set"
+msgstr "
