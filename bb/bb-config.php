@@ -33,7 +33,7 @@ if ($_SERVER['HTTP_HOST'] == 'localhost:8888')
 else
 {
   /** MySQL database username */
-  define( 'BBDB_USER', 'moncoinjardin-user' );
+  define( 'BBDB_USER', 'moncoinjardin' );
 
   /** MySQL database password */
   define( 'BBDB_PASSWORD', 'EznwetfzQxu6' );
